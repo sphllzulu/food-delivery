@@ -1,36 +1,48 @@
 import basket_icon from './basket_icon.png'
-import logo from './Logo.png'
+import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './adults.jpg'
-import menu_2 from './kids.jpg'
-import menu_3 from './teens.png'
+import menu_1 from './menu_1.png'
+import menu_2 from './menu_2.png'
+import menu_3 from './menu_3.png'
+import menu_4 from './menu_4.png'
+import menu_5 from './menu_5.png'
+import menu_6 from './menu_6.png'
+import menu_7 from './menu_7.png'
+import menu_8 from './menu_8.png'
 
-
-import med_1 from './med1.png'
-import med_2 from './med2.png'
-import med_3 from './med3.png'
-import med_4 from './med4.png'
-import med_5 from './med5.png'
-import med_6 from './med6.png'
-import med_7 from './med7.png'
-import med_8 from './med8.png'
-import med_9 from './med9.png'
-import med_10 from './med10.png'
-import med_11 from './med11.png'
-import med_12 from './med12.png'
-import med_13 from './med13.png'
-import med_14 from './med14.png'
-import med_15 from './med15.png'
-import med_16 from './med16.png'
-import med_17 from './med17.png'
-import med_18 from './med18.png'
-import med_19 from './med19.png'
-import med_20 from './med20.png'
-import med_21 from './med21.png'
-import med_22 from './med22.png'
-import med_23 from './med23.png'
-import med_24 from './med24.png'
+import food_1 from './food_1.png'
+import food_2 from './food_2.png'
+import food_3 from './food_3.png'
+import food_4 from './food_4.png'
+import food_5 from './food_5.png'
+import food_6 from './food_6.png'
+import food_7 from './food_7.png'
+import food_8 from './food_8.png'
+import food_9 from './food_9.png'
+import food_10 from './food_10.png'
+import food_11 from './food_11.png'
+import food_12 from './food_12.png'
+import food_13 from './food_13.png'
+import food_14 from './food_14.png'
+import food_15 from './food_15.png'
+import food_16 from './food_16.png'
+import food_17 from './food_17.png'
+import food_18 from './food_18.png'
+import food_19 from './food_19.png'
+import food_20 from './food_20.png'
+import food_21 from './food_21.png'
+import food_22 from './food_22.png'
+import food_23 from './food_23.png'
+import food_24 from './food_24.png'
+import food_25 from './food_25.png'
+import food_26 from './food_26.png'
+import food_27 from './food_27.png'
+import food_28 from './food_28.png'
+import food_29 from './food_29.png'
+import food_30 from './food_30.png'
+import food_31 from './food_31.png'
+import food_32 from './food_32.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -72,190 +84,267 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Adults",
+        menu_name: "Salad",
         menu_image: menu_1
     },
     {
-        menu_name: "Kids",
+        menu_name: "Rolls",
         menu_image: menu_2
     },
     {
-        menu_name: "Teens",
+        menu_name: "Deserts",
         menu_image: menu_3
+    },
+    {
+        menu_name: "Sandwich",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "Cake",
+        menu_image: menu_5
+    },
+    {
+        menu_name: "Pure Veg",
+        menu_image: menu_6
+    },
+    {
+        menu_name: "Pasta",
+        menu_image: menu_7
+    },
+    {
+        menu_name: "Noodles",
+        menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Andolex-C",
-        image: med_1,
-        price: 62,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        name: "Greek salad",
+        image: food_1,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
     },
     {
         _id: "2",
-        name: "Vicks Acta Plus",
-        image: med_2,
-        price: 58,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        name: "Veg salad",
+        image: food_2,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
     }, {
         _id: "3",
-        name: "Linctagon",
-        image: med_3,
-        price: 70,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        name: "Clover Salad",
+        image: food_3,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
     }, {
         _id: "4",
-        name: "Woods",
-        image: med_4,
-        price: 54,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        name: "Chicken Salad",
+        image: food_4,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
     }, {
         _id: "5",
-        name: "Buscopan",
-        image: med_5,
-        price: 45,
-        description: "Used to treat stomach cramps and IBS",
-        category: "Indigestion"
+        name: "Lasagna Rolls",
+        image: food_5,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
     }, {
         _id: "6",
-        name: "Scopex",
-        image: med_6,
+        name: "Peri Peri Rolls",
+        image: food_6,
         price: 12,
-        description: "Used to treat stomach cramps and IBS",
-        category: "Indigestion"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
     }, {
         _id: "7",
-        name: "Azithromyxin",
-        image: med_7,
-        price: 200,
-        description: "Used for tonsils",
-        category: "Throat"
+        name: "Chicken Rolls",
+        image: food_7,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
     }, {
         _id: "8",
-        name: "Tonzolyt",
-        image: med_8,
-        price: 150,
-        description: "Used for tonsils",
-        category: "Throat"
+        name: "Veg Rolls",
+        image: food_8,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
     }, {
         _id: "9",
-        name: "Benylin Wet Cough",
-        image: med_9,
+        name: "Ripple Ice Cream",
+        image: food_9,
         price: 14,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
     }, {
         _id: "10",
-        name: "Linctagon",
-        image: med_10,
+        name: "Fruit Ice Cream",
+        image: food_10,
         price: 22,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
     }, {
         _id: "11",
-        name: "BronchoStop",
-        image: med_11,
+        name: "Jar Ice Cream",
+        image: food_11,
         price: 10,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
     }, {
         _id: "12",
-        name: "Poxicilin",
-        image: med_12,
+        name: "Vanilla Ice Cream",
+        image: food_12,
         price: 12,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
     },
     {
         _id: "13",
-        name: "Lichtagon Lollies",
-        image: med_13,
+        name: "Chicken Sandwich",
+        image: food_13,
         price: 12,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
     },
     {
         _id: "14",
-        name: "Phalylex",
-        image: med_14,
+        name: "Vegan Sandwich",
+        image: food_14,
         price: 18,
-        description: "Relives from cold and flu symptoms",
-        category: "Throat"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
     }, {
         _id: "15",
-        name: "Peelaa",
-        image: med_15,
+        name: "Grilled Sandwich",
+        image: food_15,
         price: 16,
-        description: "Help with stomach cramps and indigestion",
-        category: "Indigestion"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
     }, {
         _id: "16",
-        name: "Dr Talbots",
-        image: med_16,
+        name: "Bread Sandwich",
+        image: food_16,
         price: 24,
-        description: "Help with stomach cramps and indigestion",
-        category: "Indigestion"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
     }, {
         _id: "17",
-        name: "Prospan",
-        image: med_17,
+        name: "Cup Cake",
+        image: food_17,
         price: 14,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
     }, {
         _id: "18",
-        name: "Vicks Honey&Ginger",
-        image: med_18,
+        name: "Vegan Cake",
+        image: food_18,
         price: 12,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
     }, {
         _id: "19",
-        name: "Hot Toddy",
-        image: med_19,
+        name: "Butterscotch Cake",
+        image: food_19,
         price: 20,
-        description: "Relives from cold and flu symptoms",
-        category: "Flu"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
     }, {
         _id: "20",
-        name: "Throat & Tonsil Dc",
-        image: med_20,
+        name: "Sliced Cake",
+        image: food_20,
         price: 15,
-        description: "Helps with tonsils",
-        category: "Throat"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
     }, {
         _id: "21",
-        name: "Iberogast ",
-        image: med_21,
+        name: "Garlic Mushroom ",
+        image: food_21,
         price: 14,
-        description: "Used to treat stomach cramps and IBS",
-        category: "Indigestion"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
     }, {
         _id: "22",
-        name: "Scopex",
-        image: med_22,
+        name: "Fried Cauliflower",
+        image: food_22,
         price: 22,
-        description: "Used to treat stomach cramps and IBS",
-        category: "Indigestion"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
     }, {
         _id: "23",
-        name: "Natura Tonsilla",
-        image: med_23,
+        name: "Mix Veg Pulao",
+        image: food_23,
         price: 10,
-        description: "Helps with tonsils",
-        category: "Throat"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
     }, {
         _id: "24",
-        name: "Herbay",
-        image: med_24,
+        name: "Rice Zucchini",
+        image: food_24,
         price: 12,
-        description: "Helps with tonsils",
-        category: "Throat"
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "25",
+        name: "Cheese Pasta",
+        image: food_25,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "26",
+        name: "Tomato Pasta",
+        image: food_26,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "27",
+        name: "Creamy Pasta",
+        image: food_27,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "28",
+        name: "Chicken Pasta",
+        image: food_28,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "29",
+        name: "Buttter Noodles",
+        image: food_29,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "30",
+        name: "Veg Noodles",
+        image: food_30,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "31",
+        name: "Somen Noodles",
+        image: food_31,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "32",
+        name: "Cooked Noodles",
+        image: food_32,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
     }
-    
 ]
